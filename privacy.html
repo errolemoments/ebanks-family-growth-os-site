@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · The Ebanks Family Growth OS</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="logo.png">
+</head>
+<body>
+<header><div class="in"><img src="logo.png" alt="The Ebanks Family"><span class="name">Growth OS</span>
+  <nav aria-label="Site"><a href="./">Home</a><a href="privacy.html" aria-current="page">Privacy policy</a><a href="terms.html">Terms</a></nav></div></header>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="meta">The Ebanks Family Growth OS (“Growth OS”, “the app”) · Effective November 20, 2026</p>
+
+  <div class="note"><b>The short version.</b> Growth OS runs on your own computer and keeps your budget there, encrypted. Nothing comes to us. If you sign in with Google, the app only uses the files it creates in your own Google Drive, and your budget file there is encrypted with a password only you know. We don’t sell, share or advertise with your information.</div>
+
+  <h2>Who we are</h2>
+  <p>Growth OS is a personal budgeting app made by Errol Ebanks for the Ebanks family and the people we choose to share our budget with. You can reach us at <a href="mailto:erroleplus@gmail.com">erroleplus@gmail.com</a>.</p>
+
+  <h2>What the app keeps, and where</h2>
+  <p>Growth OS has no server of its own and no accounts with us. Everything it keeps is on your computer, in one file encrypted with AES-256. That includes:</p>
+  <ul>
+    <li>your budget plans, paychecks, savings goals, medical bills list, notes and settings;</li>
+    <li>a copy of your YNAB budget data (categories, accounts and transactions), so the app can work quickly;</li>
+    <li>the sign-in tokens for YNAB and, if you sign in, Google.</li>
+  </ul>
+  <p>We (the makers of Growth OS) never receive any of this.</p>
+
+  <h2>Google user data</h2>
+  <p>Signing in with Google is optional. If you do, Growth OS asks Google for these permissions only:</p>
+  <table>
+    <tr><th>Permission</th><th>What Growth OS does with it</th></tr>
+    <tr><td>Your email address (<code>openid</code>, <code>email</code>)</td><td>Shows which Google account is signed in, in the app’s Settings. It’s kept only on your computer.</td></tr>
+    <tr><td>Files in Google Drive that Growth OS creates (<code>drive.file</code>)</td><td>Creates and updates two kinds of files in your own Drive, only if you turn them on: (1) an encrypted copy of your budget, so your computers stay in step and you can restore it on a new computer; (2) a Google Sheets copy of your transactions, weekly plans and trends. Growth OS can’t see, read or change any other file in your Drive.</td></tr>
+  </table>
+  <ul>
+    <li><b>Encrypted with your password.</b> The budget file in your Drive is encrypted on your computer before it’s uploaded, with a password you choose. Google can’t read it, and neither can we.</li>
+    <li><b>Not encrypted:</b> the Google Sheets copy, if you turn it on, is a normal Google Sheet in your Drive, private to your Google account unless you share it.</li>
+    <li><b>No transfer.</b> Google user data is used only to provide these features to you. It isn’t sent to us or anyone else, sold, used for advertising, or used to train AI models.</li>
+    <li><b>No human access.</b> Nobody reads your Google data. The app does everything automatically on your computer.</li>
+  </ul>
+  <p>Growth OS’s use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Other services the app talks to</h2>
+  <p>The app connects directly from your computer to these services, and only for the reasons below:</p>
+  <ul>
+    <li><b>YNAB</b> (You Need A Budget), with the personal access token you paste in, to read your budget and save the changes you make, such as assigning a paycheck. YNAB’s own privacy policy applies to your YNAB account.</li>
+    <li><b>Your bank’s website</b>, only if you open it in the app’s bank window. You sign in to your bank yourself; Growth OS never sees or stores your bank password. When you click “Check this page”, it reads the text of that page on your computer to compare it with YNAB.</li>
+    <li><b>A shared folder</b>, only if you share your budget with your household. Each computer writes its own file there, encrypted with your household’s share code.</li>
+    <li><b>Anthropic (Claude)</b>, only if you add your own Anthropic API key and use “Ask a question” in the Advisor. Then a summary of your budget (totals by category and month, savings funds and upcoming bills) is sent with your question. Account numbers, bank logins and tokens are never sent. Anthropic’s own terms and privacy policy apply.</li>
+    <li><b>GitHub</b>, to check for and download app updates. This sends nothing about your budget; like any download, GitHub sees your computer’s internet address.</li>
+  </ul>
+
+  <h2>Keeping and deleting your information</h2>
+  <ul>
+    <li>Your information stays on your computer until you delete it. Uninstalling the app and deleting the <i>Ebanks Family Growth OS</i> folder in Documents removes it.</li>
+    <li>In the app, <b>Settings › Where your budget is saved › Keep it only on this computer</b> stops saving to Google Drive and can delete the copy in your Drive.</li>
+    <li>You can remove Growth OS’s access to your Google account at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. You can also delete its files from your Google Drive yourself.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>Your data is encrypted on your computer (AES-256), and the Drive copy is encrypted with your password before it leaves your computer. The app’s small built-in server only answers your own computer (127.0.0.1) and needs a key that changes every time the app starts. No method is perfect, so keep your computer and passwords safe.</p>
+
+  <h2>Children</h2>
+  <p>Growth OS is meant for adults managing a household budget. It isn’t meant for children under 13, and we don’t knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we’ll update this page and the date at the top. Big changes will also be mentioned in the app’s “What’s new”.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: <a href="mailto:erroleplus@gmail.com">erroleplus@gmail.com</a>.</p>
+</main>
+<footer>© 2026 Errol Ebanks · <a href="./">Home</a><a href="terms.html">Terms</a></footer>
+</body>
+</html>
